@@ -46,3 +46,16 @@ body {
   background-color: #3f3f46;
   /* zinc-700 */
 }
+
+/* Subtle glow for highlighted text */
+.text-glow {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.15),
+    0 0 20px rgba(255, 255, 255, 0.1),
+    0 0 40px rgba(255, 255, 255, 0.05);
+}
+
+/* Extra subtle glow for hero text */
+.text-glow-subtle {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.08),
+    0 0 40px rgba(255, 255, 255, 0.04);
+}
