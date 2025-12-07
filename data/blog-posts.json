@@ -1,0 +1,163 @@
+{
+  "posts": [
+    {
+      "title": "LLM4N10: Teaching Models to Follow Instructions - Supervised Fine-tuning (SFT)",
+      "date": "2025-11-14",
+      "excerpt": "How we go from a base model to a instruction-tuned model...",
+      "substackUrl": "https://datapecharcha.substack.com/p/llm4n10-teaching-models-to-follow",
+      "tags": [
+        "technical",
+        "ai"
+      ]
+    },
+    {
+      "title": "LLM4N9: Let's train our Transformer",
+      "date": "2025-10-24",
+      "excerpt": "playing the training game, predicting next token, cross-entropy loss and more...",
+      "substackUrl": "https://datapecharcha.substack.com/p/llm4n9-lets-train-our-transformer",
+      "tags": [
+        "technical",
+        "ai"
+      ]
+    },
+    {
+      "title": "LLM4N8: The Complete Transformer Block",
+      "date": "2025-10-17",
+      "excerpt": "Combining MHA, LayerNorm, and a Feed-Forward Network to get the engine running....",
+      "substackUrl": "https://datapecharcha.substack.com/p/llm4n8-the-complete-transformer-block",
+      "tags": [
+        "technical",
+        "ai"
+      ]
+    },
+    {
+      "title": "LLM4N7: Upgrading to Multi-Head Attention",
+      "date": "2025-10-10",
+      "excerpt": "One attention head isn't enough, combining multiple heads, and making a panel of experts...",
+      "substackUrl": "https://datapecharcha.substack.com/p/llm4n7-upgrading-to-multi-head-attention",
+      "tags": [
+        "technical",
+        "ai"
+      ]
+    },
+    {
+      "title": "LLM4N6:How self-attention works",
+      "date": "2025-10-03",
+      "excerpt": "what k,q,v geometrically mean, WHY behind the formula, tackling tricky questions...",
+      "substackUrl": "https://datapecharcha.substack.com/p/llm4n6how-self-attention-works",
+      "tags": [
+        "technical",
+        "ai"
+      ]
+    },
+    {
+      "title": "LLM4N5: Embeddings and Postional Encoding",
+      "date": "2025-09-26",
+      "excerpt": "Setting the stage for transformers, how and why positional encoding work, and what's next?...",
+      "substackUrl": "https://datapecharcha.substack.com/p/llm4n5-embeddings-and-postional-encoding",
+      "tags": [
+        "technical",
+        "ai"
+      ]
+    },
+    {
+      "title": "LLM4N4: The art of tokenization",
+      "date": "2025-09-21",
+      "excerpt": "How computers understand text, types of tokenization, BPE, and other related topics.",
+      "substackUrl": "https://datapecharcha.substack.com/p/llm4n4-the-art-of-tokenization",
+      "tags": [
+        "technical",
+        "ai",
+        "nlp",
+        "tokenization"
+      ]
+    },
+    {
+      "title": "LLM4N3:Fixing a broken memory with LSTMs",
+      "date": "2025-09-12",
+      "excerpt": "Addressing limitations of RNNs, how LSTMs \"remember\" across long-range dependencies, and what's next?",
+      "substackUrl": "https://datapecharcha.substack.com/p/llm4n3fixing-a-broken-memory-with",
+      "tags": [
+        "lstm",
+        "rnn",
+        "llm",
+        "dl"
+      ]
+    },
+    {
+      "title": "LLM4N2: Giving words meaning with Neural Networks",
+      "date": "2025-09-05",
+      "excerpt": "Word2Vec, RNNs, usecases, their limitations, and what's next?",
+      "substackUrl": "https://datapecharcha.substack.com/p/llm4n2-giving-words-meaning-with",
+      "tags": [
+        "word2vec",
+        "rnn",
+        "nlp",
+        "neural networks",
+        "llm"
+      ]
+    },
+    {
+      "title": "LLM4N1: Why did N-gram models fail?",
+      "date": "2025-08-29",
+      "excerpt": "A brief primer on N-gram models, their applications, and limitations",
+      "substackUrl": "https://datapecharcha.substack.com/p/llm4n1-why-did-n-gram-models-fail",
+      "tags": [
+        "n-gram",
+        "nlp",
+        "language models",
+        "llm"
+      ]
+    },
+    {
+      "title": "Why is uv so freaking fast?",
+      "date": "2025-08-22",
+      "excerpt": "Architectural decisions behind uv, hard problems team Astral solved, and so much more",
+      "substackUrl": "https://datapecharcha.substack.com/p/why-is-uv-so-freaking-fast",
+      "tags": [
+        "uv",
+        "python",
+        "rust",
+        "performance",
+        "packaging"
+      ]
+    },
+    {
+      "title": "A Data Scientist's Guide to Hypothesis Testing",
+      "date": "2025-08-15",
+      "excerpt": "How do you choose the right test? And why do we need it in the first place?",
+      "substackUrl": "https://datapecharcha.substack.com/p/a-data-scientists-guide-to-hypothesis",
+      "tags": [
+        "statistics",
+        "data science",
+        "hypothesis testing",
+        "A/B testing"
+      ]
+    },
+    {
+      "title": "Why does the Central Limit Theorem work?",
+      "date": "2025-08-08",
+      "excerpt": "A brief explanation on what CLT is and why it works.",
+      "substackUrl": "https://datapecharcha.substack.com/p/why-does-the-central-limit-theorem",
+      "tags": [
+        "statistics",
+        "probability",
+        "central limit theorem",
+        "math"
+      ]
+    },
+    {
+      "title": "The math that makes ML models work: Maximum likelihood estimation",
+      "date": "2025-05-17",
+      "excerpt": "A primer on how MLE helps us derive the appropriate loss functions",
+      "substackUrl": "https://mahaprasad.notion.site/The-Math-That-Makes-ML-Models-Work-Maximum-Likelihood-Estimation-1f4a2fdfeff680798e25fec44064c49c",
+      "tags": [
+        "machine learning",
+        "mle",
+        "statistics",
+        "math",
+        "loss functions"
+      ]
+    }
+  ]
+}
