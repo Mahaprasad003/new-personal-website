@@ -7,7 +7,7 @@ export default function Now() {
     return (
         <Layout>
             <Navbar />
-            <main className="max-w-3xl mx-auto pt-20">
+            <main className="max-w-3xl mx-auto pt-8 md:pt-20">
                 <FadeIn>
                     <h1 className="text-3xl font-bold text-zinc-100 mb-12 lowercase tracking-tight">now</h1>
                 </FadeIn>
@@ -18,7 +18,7 @@ export default function Now() {
                         <div className="grid grid-cols-1 md:grid-cols-[140px_1fr] gap-4">
                             <span className="text-zinc-500 font-medium text-lg">current focus</span>
                             <span className="text-zinc-300">
-                                mastering large language models & building minimalist interfaces. currently working on agentic workflows and fine-tuning llama-3 for specialized tasks.
+                                mastering large language models. currently working on learning rag workflows and fine-tuning. bridging the gap between theory and application.
                             </span>
                         </div>
                     </FadeInItem>
@@ -27,9 +27,9 @@ export default function Now() {
                         <div className="grid grid-cols-1 md:grid-cols-[140px_1fr] gap-4">
                             <span className="text-zinc-500 font-medium text-lg">learning</span>
                             <div className="flex flex-col gap-2">
-                                <span className="text-zinc-300">advanced rust via &quot;rust for rustaceans&quot;</span>
-                                <span className="text-zinc-300">distributed systems architecture</span>
-                                <span className="text-zinc-300">generative art with three.js</span>
+                                <span className="text-zinc-300">building production ml apis with fastapi</span>
+                                <span className="text-zinc-300">containerization and mlops pipelines</span>
+                                <span className="text-zinc-300">system design for ml at scale</span>
                             </div>
                         </div>
                     </FadeInItem>
@@ -38,9 +38,7 @@ export default function Now() {
                         <div className="grid grid-cols-1 md:grid-cols-[140px_1fr] gap-4">
                             <span className="text-zinc-500 font-medium text-lg">reading</span>
                             <div className="flex flex-col gap-2">
-                                <span className="text-zinc-300">&quot;superintelligence&quot; by nick bostrom</span>
-                                <span className="text-zinc-300">&quot;refactoring ui&quot; by adam wathan & steve schoger</span>
-                                <span className="text-zinc-300">&quot;snow crash&quot; by neal stephenson</span>
+                                <span className="text-zinc-300">&quot;Designing Machine Learning Systems&quot; by chip huyen</span>
                             </div>
                         </div>
                     </FadeInItem>
@@ -49,7 +47,7 @@ export default function Now() {
                         <div className="grid grid-cols-1 md:grid-cols-[140px_1fr] gap-4">
                             <span className="text-zinc-500 font-medium text-lg">personal life</span>
                             <span className="text-zinc-300">
-                                training for a half-marathon, exploring vellore&apos;s coffee scene, and curating my digital garden.
+                                cutting down on distractions, curating my digital garden, and playing games.
                             </span>
                         </div>
                     </FadeInItem>

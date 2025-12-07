@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <Layout>
             <Navbar />
-            <main className="max-w-4xl mx-auto pt-10">
+            <main className="max-w-4xl mx-auto pt-4 md:pt-10">
 
                 {/* Editorial Hero: Stronger Gradient */}
                 <FadeIn>
@@ -19,7 +19,7 @@ export default function Home() {
                    - Added ml-[3px] md:ml-[5px] to Intro and Description to align them with the natural visual start of the H1 glyphs.
                 */}
                         <p className="text-zinc-400 mb-4 lowercase text-lg md:text-xl ml-[3px] md:ml-[5px]">hi, i&apos;m mahaprasad</p>
-                        <h1 className="text-6xl md:text-8xl font-bold bg-linear-to-b from-white via-zinc-300 to-zinc-600 bg-clip-text text-transparent tracking-tighter leading-none mb-6 whitespace-nowrap lowercase select-none pb-2">
+                        <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold bg-linear-to-b from-white via-zinc-300 to-zinc-600 bg-clip-text text-transparent tracking-tighter leading-none mb-6 lowercase select-none pb-2">
                             data scientist.
                         </h1>
                         <p className="text-zinc-500 text-lg md:text-xl max-w-2xl mt-8 leading-relaxed lowercase ml-[3px] md:ml-[5px]">
@@ -28,7 +28,7 @@ export default function Home() {
                     </div>
                 </FadeIn>
 
-                <FadeInStagger className="grid grid-cols-1 md:grid-cols-2 gap-16 text-zinc-500 dark:text-zinc-400 font-light text-lg leading-relaxed lowercase">
+                <FadeInStagger className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 text-zinc-500 dark:text-zinc-400 font-light text-lg leading-relaxed lowercase">
                     <FadeInItem>
                         <div className="space-y-6">
                             <h2 className="text-foreground font-medium text-base uppercase tracking-widest mb-4">the work</h2>

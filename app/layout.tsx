@@ -13,7 +13,36 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Mahaprasad.",
-  description: "Data Scientist & Creative Developer",
+  description: "Data Scientist & AI Engineer",
+
+  // Open Graph - for Facebook, LinkedIn, Discord, etc.
+  openGraph: {
+    title: "Mahaprasad.",
+    description: "Data Scientist & AI Engineer",
+    url: "https://mahaprasad.xyz", // Update with your actual domain
+    siteName: "Mahaprasad",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png", // We'll create this
+        width: 1200,
+        height: 630,
+        alt: "Mahaprasad - Data Scientist & AI Engineer",
+      },
+    ],
+  },
+
+  // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    title: "Mahaprasad.",
+    description: "Data Scientist & AI Engineer",
+    images: ["/og-image.png"],
+  },
+
+  // Additional metadata
+  metadataBase: new URL("https://mahaprasad.xyz"), // Update with your actual domain
 };
 
 export default function RootLayout({

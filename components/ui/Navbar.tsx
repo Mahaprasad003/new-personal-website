@@ -12,9 +12,9 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="py-12 mb-12">
+        <nav className="py-6 md:py-12 mb-6 md:mb-12">
             <div className="max-w-4xl mx-auto flex justify-between items-center">
-                <div className="flex gap-8">
+                <div className="flex gap-4 md:gap-8">
                     {links.map((link) => {
                         const isActive = pathname === link.path;
 
@@ -22,7 +22,7 @@ export default function Navbar() {
                             <RollingLink
                                 key={link.path}
                                 href={link.path}
-                                className={`text-xl ${isActive ? 'text-foreground font-medium' : 'text-zinc-500'}`}
+                                className={`text-base md:text-xl ${isActive ? 'text-foreground font-medium' : 'text-zinc-500'}`}
                                 height="28px"
                             >
                                 {link.name}

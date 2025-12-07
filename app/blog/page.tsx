@@ -10,7 +10,7 @@ export default async function Blog() {
     return (
         <Layout>
             <Navbar />
-            <main className="max-w-3xl mx-auto pt-20 pb-32">
+            <main className="max-w-3xl mx-auto pt-8 md:pt-20 pb-32">
                 <FadeIn>
                     <h1 className="text-3xl font-bold text-zinc-100 mb-12 lowercase tracking-tight">blog</h1>
                 </FadeIn>
