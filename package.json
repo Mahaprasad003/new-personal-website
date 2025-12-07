@@ -10,7 +10,7 @@
     "update-blog": "node scripts/update-blog.js"
   },
   "dependencies": {
-    "@studio-freight/react-lenis": "^0.0.47",
+    "lenis": "^1.1.18",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.25",
     "lucide-react": "^0.556.0",

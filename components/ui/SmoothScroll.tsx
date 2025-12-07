@@ -1,6 +1,6 @@
 'use client';
 
-import { ReactLenis } from '@studio-freight/react-lenis';
+import { ReactLenis } from 'lenis/react';
 
 export function SmoothScroll({ children }: { children: React.ReactNode }) {
     // Lerp: 0.1 is standard, lower is "heavier", higher is snappier.
